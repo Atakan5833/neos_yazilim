@@ -1,0 +1,154 @@
+section {
+    background-color: brown;
+    display: flex;
+    align-items: center;
+}
+
+div {
+    border: 2px solid black;
+}
+
+.bir {
+    justify-content: start;
+    height: 100px;
+}
+    
+.birsol {
+    width: 100px;
+}
+
+.birorta {
+    width: 160px;
+}
+
+.birsag {
+    width: 70px;
+}
+
+.bir div {
+    margin-left: 10px;
+    height: 60px;
+    background-color: bisque;
+}
+
+.iki {
+    height: 100px;
+    justify-content: end;
+
+}
+
+.iki div {
+    background-color: bisque;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.ikisol {
+    width: 90px;
+}
+
+.ikiorta {
+    width: 120px;
+}
+
+.ikisag {
+    width: 70px;
+}
+
+
+.uc {
+    height: 100px;
+    justify-content: center;
+}
+
+.uc div {
+    background-color: bisque;
+    height: 60px;
+    margin: 10px;
+}
+
+.ucsol {
+    width: 90px;
+}
+
+.ucorta {
+    width: 120px;
+}
+
+.ucsag {
+    width: 70px;
+}
+
+
+.dort {
+    height: 100px;
+    justify-content: space-between;
+}
+
+.dort div {
+    background-color: bisque;
+    height: 60px;
+    margin: 10px;
+}
+
+.dortsol {
+    width: 90px;
+}
+
+.dortorta {
+    width: 120px;
+}
+
+.dortsag {
+    width: 70px;
+}
+
+
+.bes {
+    height: 100px;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.bes div {
+    background-color: bisque;
+    height: 60px;
+    margin: 10px;
+}
+
+.bessol {
+    width: 90px;
+}
+
+.besorta {
+    width: 120px;
+}
+
+.bessag {
+    width: 70px;
+}
+
+
+.alti {
+    height: 100px;
+    justify-content: space-between;
+    padding: 0 500px 0 125px;
+}
+
+.alti div {
+    background-color: bisque;
+    height: 60px;
+    margin: 10px;
+}
+
+.altisol {
+    width: 90px;
+}
+
+.altiorta {
+    width: 120px;
+}
+
+.altisag {
+    width: 70px;
+}

@@ -1,0 +1,8 @@
+* {background-color: purple;}
+h1 { background-color: green;
+    display: flex;
+}
+.kutu {
+    border: 12px solid black ;
+    margin-top: 12px;
+}
