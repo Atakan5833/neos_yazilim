@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exxen</title>
+    <script src="https://kit.fontawesome.com/c2fc84f195.js" crossorigin="anonymous"></script>
+    <link  rel="icon" href="https://cdn1.img.sputniknews.com.tr/img/07e4/0c/1e/1043487396_0:2:811:458_1920x0_80_0_0_d9510d3c6fd4a6921d90241996e08149.jpg" type="image/x-icon" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       
+
+        .sari {
+            background-color: #ffcb04;
+            max-height: 100px;
+            width: 100%;
+
+        }
+
+        .sari_icerik {
+            margin: auto;
+            width: 60%;
+            display: flex;
+        }
+
+        .logo {
+            margin: 10px 0px;
+        }
+
+        .sari_icerik a {
+            text-decoration: none;
+            height: 40px;
+        }
+
+        .sari_icerik a,
+        select {
+            margin-top: 20px;
+        }
+
+        .ticari {
+            background-color: black;
+            color: #ffcb04;
+            font-weight: bold;
+            margin-left: 120px;
+            padding: 10px 20px;
+        }
+
+        .uye {
+            background-color: #ffcb04;
+            color: #000000;
+            border: 1px solid black;
+            margin-left: 10px;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .sari_icerik i {
+            margin: 30px 5px 0px 5px;
+        }
+
+        .sari_icerik select {
+            background-color: #ffcb04;
+            border: 0px;
+            margin-bottom: 33px;
+        }
+
+        .siyah {
+            background-color: #181616;
+            width: 100%;
+            min-height: 106px;
+            position: sticky;
+            top: 0;
+        }
+
+        .siyah_icerik {
+            display: flex;
+            width: 60%;
+            margin: auto;
+            justify-content: space-between;
+        }
+
+        .siyah_icerik form,
+        button {
+            margin-top: 30px;
+        }
+
+        .form {
+            padding: 15px 90px 15px 0px;
+        }
+
+        .formsag {
+            background-color: #ffcb04;
+            color: #000000;
+            border: 0;
+            text-align: center;
+            font-weight: bold;
+            justify-content: center;
+        }
+
+        .kapakarka {
+            background-color: #000000;
+        }
+
+        .kapak {
+            width: 60%;
+            margin: auto;
+        }
+
+        .kapak img {
+            width: 100%;
+        }
+
+        .icerik {
+            background-color: #000000;
+        }
+
+        .icerikizle {
+            width: 60%;
+            margin: auto;
+            display: flex;
+        }
+
+        img {
+            margin: 5px
+        }
+
+        .icerikizle a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .icerikizle img {
+            width: 190px;
+        }
+
+        .icerik2 {
+            background-color: #000000;
+        }
+
+        .icerikizle2 {
+            width: 60%;
+            margin: auto;
+            display: flex;
+        }
+
+        img {
+            margin: 5px
+        }
+
+        .icerikizle2 a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .icerikizle2 img {
+            width: 190px;
+        }
+
+        .icerik3 {
+            background-color: #000000;
+        }
+
+        .icerikizle3 {
+            width: 60%;
+            margin: auto;
+            display: flex;
+        }
+
+        .icerikizle3 a,
+        img {
+            margin: 5px
+        }
+
+        .icerikizle3 a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .icerikizle3 img {
+            width: 190px;
+        }
+
+
+
+        .icerik4 {
+            background-color: #000000;
+        }
+
+        .icerikizle4 {
+            width: 60%;
+            margin: auto;
+            display: flex;
+        }
+
+        .icerikizle4 a,
+        img {
+            margin: 5px
+        }
+
+        .icerikizle4 a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .icerikizle4 img {
+            width: 190px;
+        }
+
+
+
+        .alttv {
+            background-color: #000000;
+        }
+
+        .foto {
+            width: 60%;
+            margin: auto;
+        }
+
+        .foto img {
+            margin-left: 30%;
+        }
+
+
+        .altpanel {
+            background-color: #000000;
+        }
+
+        .altpanel1 h3 {
+            color: white;
+            margin: 0 470px;
+            text-align: center;
+        }
+
+        .indir {
+            display: flex;
+            width: 60%;
+            margin: auto;
+            justify-content: center;
+        }
+
+        .android img {
+            width: 145px;
+        }
+
+        .huawei img {
+            width: 145px;
+        }
+
+
+        .social_icon_container ul {
+            display: flex;
+            list-style-type: none;
+            width: 60%;
+            margin: auto;
+        }
+
+        #listt {
+            margin-left: 325px;
+        }
+
+        .son {
+            background-color: #000000;
+            height: 120px;
+        }
+
+        .sonic {
+            width: 60%;
+            margin: auto;
+        }
+
+        .sonicc {
+            background-color: #090909;
+            height: 50px;
+            padding: 10px;
+        }
+
+        .soniccc {
+            background-color: #090909;
+        }
+
+        .yardim {
+            color: #ffcb04;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-left: 300px;
+        }
+
+        .kunye {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            margin-left: 390px;
+        }
+        .siyah_icerik input::placeholder {
+            font-weight: bold;
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sari">
+        <div class="sari_icerik">
+            <img class="logo" src="https://wimage.exxen.com/img/landing/logo-web.svg" alt="logo">
+            <a class="ticari" href="https://www.exxen.com/tr/sign-up-commercial">EXXENSPOR Ticari Üye Ol</a>
+            <a class="uye" href="https://www.exxen.com/tr/sign-in">Üye Girişi</a>
+            <i class="fa-solid fa-globe" style="color: #000000;"></i>
+            <select name="" id="Langue">
+                <option value="TR">Türkiye</option>
+                <option value="EN">English</option>
+                <option value="ES">Español</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="siyah">
+        <div class="siyah_icerik">
+            <form><input class="form" type="text" placeholder="Ad Soyadı" required></form>
+            <form><input class="form" type="email" placeholder="E-Posta Adresi" required></form>
+            <form><input class="form formsag" type="submit" value="Şimdi Üye Ol 14 Gün Bedava İzle "></form>
+
+        </div>
+    </div>
+    <div class="kapakarka">
+        <div class="kapak">
+            <a href="https://www.exxen.com/tr/sign-up"><img src="https://image.exxen.com/landing/14gun.jpg" alt="üyeol"></a>
+        </div>
+    </div>
+
+    <div class="icerik">
+        <div class="icerikizle">
+            <a href="https://www.exxen.com/tr/detail/serie/sampiyonlar-ligi/40034"><img
+                    src="https://image1.exxen.com/content/Y/Nl/40034/Poster.jpg?v=637656647853011273" alt="uel">Suudi
+                Arabistan Pro Lig</a>
+            <a href="https://www.exxen.com/tr/detail/serie/avrupa-ligi/40039"><img
+                    src="https://image2.exxen.com/content/E/nl/40039/Poster.jpg?v=637656707497190085"
+                    alt="uefa">Gibi</a>
+            <a href="https://www.exxen.com/tr/detail/serie/avrupa-konferans-ligi/40040"><img
+                    src="https://image3.exxen.com/content/s/pL/40040/Poster.jpg?v=637656738136316293" alt="konferans">
+                Konuşlanlar</a>
+            <a href="https://www.exxen.com/tr/detail/serie/hollanda-eredivisie/51444"><img
+                    src="https://image4.exxen.com/content/1/_Y/51444/Poster.jpg?v=638283753371825564" alt="nld">Leyla
+                ile Mecnun</a>
+        </div>
+    </div>
+
+    <div class="icerik2">
+        <div class="icerikizle2">
+            <a href="https://www.exxen.com/tr/detail/serie/suudi-arabistan-pro-lig/51445"><img
+                    src="https://image5.exxen.com/content/F/o1/51445/Poster.jpg?v=638283755716803962"
+                    alt="arap">Şampiyonlar Ligi</a>
+            <a href="https://www.exxen.com/tr/detail/serie/gibi/22396"><img
+                    src="https://image1.exxen.com/content/s/2O/22396/Poster.jpg?v=638217678502738349" alt="gibi">Avrupa
+                Ligi</a>
+            <a href="https://www.exxen.com/tr/detail/serie/konusanlar/22377"><img
+                    src="https://image2.exxen.com/content/n/lC/22377/Poster.jpg?v=638332940955488453" alt="konuşanlar">
+                Avrupa Konferans Ligi</a>
+            <a href="https://www.exxen.com/tr/detail/serie/leyla-ile-mecnun/39508"><img
+                    src="https://image3.exxen.com/content/9/es/39508/Poster.jpg?v=638163246197581395" alt="lm">Hollanda
+                Eredivisie</a>
+        </div>
+    </div>
+
+    <div class="icerik3">
+        <div class="icerikizle3">
+            <a href="https://www.exxen.com/tr/detail/serie/sadece-arkadasiz/46355"><img
+                    src="https://image.exxen.com/content/0/hS/46355/Poster.jpg?v=638326049923439776"
+                    alt="sadece-arkadasiz">Sadece Arkadaşız</a>
+            <a href="https://www.exxen.com/tr/detail/serie/sizi-dinliyorum/46350"><img
+                    src="https://image.exxen.com/content/7/TV/46350/Poster.jpg?v=638085057924964440"
+                    alt="sizi-dinliyorum">Sizi Dinliyorum</a>
+            <a href="https://www.exxen.com/tr/detail/serie/tolgshow-filtresiz/22481"><img
+                    src="https://image.exxen.com/content/j/fv/22481/Poster.jpg?v=637726055819673373" alt="Tolgshow">
+                Tolgshow Filtresiz</a>
+            <a href="https://www.exxen.com/tr/detail/serie/o-ses-turkiye-rap/34584"><img
+                    src="https://image.exxen.com/content/d/gp/34584/Poster.jpg?v=638326022895661770" alt="oses">O Ses
+                Türkiye Rap</a>
+        </div>
+    </div>
+
+    <div class="icerik4">
+        <div class="icerikizle4">
+            <a href="https://www.exxen.com/tr/detail/serie/ask-kumardir/44282"><img
+                    src="https://image.exxen.com/content/L/-m/44282/Poster.jpg?v=638326039046024316" alt="aşkkumardır">
+                Aşk Kumardır</a>
+            <a href="https://www.exxen.com/tr/detail/serie/dominik-te-gormedikleriniz-bilmedikleriniz/46040"><img
+                    src="https://image.exxen.com/content/G/Sq/46040/Poster.jpg?v=638326057634762618"
+                    alt="dominik">Dominik'te Görmedikleriniz Bilmedikleriniz</a>
+            <a href="https://www.exxen.com/tr/detail/serie/ilginc-bazi-olaylar/34589"><img
+                    src="https://image.exxen.com/content/n/fY/34589/Poster.jpg?v=638326029732648122" alt="ilginç">
+                İlginç Bazı Olaylar</a>
+            <a href="https://www.exxen.com/tr/detail/serie/turkiye-deki-seri-katiller/41756"><img
+                    src="https://image.exxen.com/content/Q/sE/41756/Poster.jpg?v=638326073808355417"
+                    alt="serikatiller">Türkiye'deki Seri Katiller</a>
+        </div>
+    </div>
+
+    <div class="alttv">
+        <div class="foto">
+            <img src="https://wimage.exxen.com/img/landing/devices.svg" alt="tv">
+        </div>
+    </div>
+
+    <div class="altpanel">
+        <div class="altpanel1">
+            <h3>Hemen üye ol, cepte, tablette, bilgisayarda, istediğin zaman, istediğin yerde exxen.com, Google Play,
+                AppGallery, App Store, Apple TV ve Android TV'den izlemeye başla.</h3>
+        </div>
+
+
+
+        <div class="indir">
+
+            <div class="apple">
+                <a href="https://apps.apple.com/us/app/exxen/id1543402064"><img
+                        src="https://wimage.exxen.com/img/app-store-2.svg" alt="apple"></a>
+            </div>
+
+            <div class="android">
+                <a
+                    href="https://play.google.com/store/apps/details?id=com.exxen.android&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&pli=1"><img
+                        src="https://wimage.exxen.com/img/google-play@3x.png" alt="google-play"></a>
+            </div>
+
+            <div class="huawei">
+                <a href="https://appgallery.huawei.com/#/app/C103579155"><img
+                        src="https://wimage.exxen.com/img/landing/huawei-app-gallery@3x.png" alt="AppGallery"></a>
+            </div>
+        </div>
+
+        <div class="social_icon_container">
+            <ul>
+                <li id="listt"><a href="https://www.instagram.com/exxen/"><img
+                            src="https://wimage.exxen.com/img/landing/instagram.svg" alt="instagram"></a></li>
+                <li><a href="https://www.facebook.com/exxen"><img
+                            src="https://wimage.exxen.com/img/landing/facebook.svg" alt="facebook"></a></li>
+                <li><a href="https://twitter.com/Exxentr"><img src="https://wimage.exxen.com/img/landing/twitter.svg"
+                            alt="x"></a></li>
+                <li><a href="https://www.youtube.com/c/Exxen"><img
+                            src="https://wimage.exxen.com/img/landing/youtube.svg" alt="youtube"></a></li>
+                <li><a href="https://www.tiktok.com/@exxen"><img src="https://wimage.exxen.com/img/landing/tiktok.svg"
+                            alt="tiktok"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="son">
+        <div class="sonic">
+            <div class="sonicc">
+                <a class="yardim" href="https://yardim-exxen.ortusdesk.com/">Exxen Yardım Merkezi</a>
+            </div>
+            <div class="soniccc">
+                <a class="kunye" href="https://www.exxen.com/tr/agreement/51438"> Künye</a>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
