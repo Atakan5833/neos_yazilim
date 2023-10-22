@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2zI2pp2JR5td0gVkS1vq7kGM98otouaykkA&usqp=CAU">
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .ust {
+        background-color: rgba(224,195,32,1);
+    }
+
+    
+    .liste ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        min-height: 100px;
+        width: 80%;
+        margin: auto;
+    }
+    .giris {
+        margin-left: 600px;
+    }
+    .liste ul a {
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold
+    }
+    
+    .liste span {
+        height: 20px;
+        width: 4px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    
+    .resimm {
+        margin-bottom: 20px;
+        height: 500px;
+        background-image: url(https://img.freepik.com/free-photo/people-walking-with-shopping-bags_53876-30090.jpg?size=626&ext=jpg&ga=GA1.1.293401108.1697804766&semt=ais);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .sol, .orta, .sag {
+        height: 310px;
+        flex: 1;
+        margin: 10px;
+        background-size:cover ;
+        -webkit-box-shadow: -3px 4px 16px 3px rgba(224,195,32,1);
+-moz-box-shadow: -3px 4px 16px 3px rgba(224,195,32,1);
+box-shadow: -3px 4px 16px 3px rgba(224,195,32,1);
+        margin-bottom: 25px;
+        cursor: pointer;
+    }   
+    .sol {
+        background-image: url(https://img.freepik.com/free-photo/portrait-happy-lady-sunglasses-standing-with-colorful-shopping-bags-hands-pink-background-young-woman-standing-white-shirt-denim-shorts_574295-1182.jpg?size=626&ext=jpg&ga=GA1.1.293401108.1697804766&semt=ais);
+    }   
+    .orta {
+        background-image: url(https://img.freepik.com/free-photo/excited-man-showing-smartphone-screen-shopping-bags-achieve-app-goal-demonstrating-mobile-banking-application-yellow-background_1258-40973.jpg?size=626&ext=jpg&ga=GA1.1.293401108.1697804766&semt=ais);
+        
+    }
+    .sag {
+        background-image: url(https://img.freepik.com/free-photo/front-view-little-cute-boy-red-t-shirt-jeans-posing_179666-1405.jpg?size=626&ext=jpg&ga=GA1.1.293401108.1697804766&semt=ais);
+    }
+
+
+
+    .alt {
+        background-color: #e0c320;
+        display: flex;
+        min-height: 300px;
+    }
+    .cizgi {
+        width: 4px;
+        height: 250px;
+        background-color: white;
+        margin-top: 25px;
+    }
+    .altsol, .altsag {
+        flex: 1;
+    }
+    .altsol a {
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .altsol ul {
+
+        margin-top: 50px;
+        width: 100%;
+    }
+    .altsol li {
+        padding: 10px;
+        text-align: center;
+    }
+
+        .altsag {
+            margin: auto;
+        }
+        .fa-github{
+            margin-left: 250px;
+        }
+    .altsag i {
+        width: 100px;
+        font-size: xx-large;
+    }
+</style>
+</head>
+<body>
+    <nav class="ust">
+
+        <div class="liste">
+            <ul>
+                <li><a href="#">ana sayfa</a></li>
+                <li><a href="#">hakkımızda</a></li>
+                <li><a href="#">iletişim</a></li>
+                <li><a href="#" class="giris">kayıt ol</a></li>
+                <span>  </span>
+                <li><a href="#">giriş</a></li>
+            </ul>
+        </div>
+    </nav>  
+    
+
+
+<div class="resimm">
+    <div class="resim">
+        
+    </div>
+</div>
+
+    <div class="menu">
+        <div class="sol"></div>
+        <div class="orta" ></div>
+        <div class="sag"></div>
+    </div>
+
+
+
+    <div class="alt">
+        <div class="altsol">
+            <ul>
+                <li><a href="">ana sayfa</a></li>
+                <li><a href="">hakkımızda</a></li>
+                <li>
+                    <a href="">iletişim</a>
+                </li>
+                <li>
+                    <a href="">kayıt ol</a>
+                </li>
+                <li><a href="">giriş</a></li>
+            </ul>
+        </div>
+
+        <span class="cizgi"></span>
+
+        <div class="altsag">
+            <a href="#"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c2fc84f195.js" crossorigin="anonymous"></script>
+</body>
+</html>
