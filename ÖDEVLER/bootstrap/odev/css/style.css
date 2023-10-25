@@ -1,0 +1,30 @@
+#site-nav  {
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+#site-nav *:not(.dropdown-item){
+    color: inherit;
+}
+
+.anasayfa {
+    width: 80%;
+    margin: auto;
+}
+.button {
+margin-left: 450px
+}
+
+
+#kategori {
+    margin-top: 30px;
+}
+
+#site-nav .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+
