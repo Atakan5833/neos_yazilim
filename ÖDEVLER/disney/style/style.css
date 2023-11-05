@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+nav {
+    background-color: #040714;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    opacity: 0.9;
+
+}
+
+.navbar {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f9f9f9;
+    margin: 5px;
+}
+
+#uyeol {
+    background: #0063e5;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 15px;
+    margin-left: auto;
+}
+
+#oturum {
+    border-radius: 4px;
+    border: 1px solid silver;
+    padding: 15px;
+}
+
+.ust {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/223a08de8c12db28ff3b73a2374debc8eb68a6fecdf1dcf2c8cad17b35723f36/original);
+    background-size: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.resim2 {
+    display: none;
+}
+.ustyazi a {
+    background: #0063e5;
+    border-radius: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px 100px;
+    color: #f9f9f9;
+}
+
+.ustyazi {
+    width: 48%;
+    margin: auto;
+    text-align: center;
+    min-height: 400px;
+    margin-top: 370px;
+}
+
+.iptalet {
+    font-size: large;
+    font-weight: 400;
+}
+
+.ustp,
+.iptalet {
+    color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.yillik,
+.fatura {
+    color: #C0C0C0;
+
+}
+
+.yillik {
+    margin-top: 40px;
+}
+
+.ustp {
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+
+.aclassı {
+    margin-top: 30px;
+}
+
+.fatura {
+    font-size: small;
+    margin-top: 20px;
+}
+
+.sadecedisney {
+    background-color: #040714;
+    position: relative;
+}
+
+.yazilar {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
+
+.resim img {
+    width: 100%;
+}
+
+.yazilar1 {
+    color: #f9f9f9;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.yazilar2 {
+    color: #C0C0C0;
+    width: 70%;
+    font-size: large;
+}
+
+.diledigingibi {
+    background-color: #040714;
+}
+
+.diledigingibiic {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.gibiizle {
+    color: #f9f9f9;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.dunya {
+    color: #C0C0C0;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.diledigingibi img {
+    width: 100%;
+}
+
+.deledigingibialt {
+    display: flex;
+
+}
+
+.sorular {
+    background-color: #040714;
+    color: #f9f9f9;
+}
+
+.sorular_container {
+    width: 90%;
+    margin: auto;
+    padding-top: 150px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.sorular_container h2 {
+    text-align: center;
+}
+
+.sutun {
+    background-color: #13151d;
+    display: flex;
+    cursor: pointer;
+    margin: 1rem;
+    align-items: center;
+    padding: 25px 1rem;
+}
+
+.arti {
+    margin-left: auto;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.cihaz {
+    background-color: #040714;
+    color: #f9f9f9;
+}
+
+.cihaz-container {
+    padding: 60px;
+}
+
+.cihaz-container img {
+    width: 100%;
+}
+
+.cihaz-container ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+}
+
+.cihaz-container h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.cihaz-container h3 {
+    padding: 1rem;
+}
+.altbir {
+    color: #f9f9f9; margin-bottom: 20px; font-weight: bold; font-size: 30px;
+}
+.altbirr {
+    color: #C0C0C0; font-size: 22px;
+}
+
+.altiki {
+    color: #f9f9f9; margin-bottom: 20px; font-weight: bold; font-size: 30px;
+}
+.altikii {
+    color: #C0C0C0; font-size: 20px;
+}
+.altuc {
+    color: #f9f9f9; margin-bottom: 20px; font-weight: bold; font-size: 30px;
+}
+.altucc {
+    color: #c0c0c0; font-size: 20px;
+}
+.kucukekranlar {
+    display: flex;
+}
+.cihaz-container p {
+    color: #c0c0c0;
+    padding: 4px;
+}
+
+footer {
+    background-color: #040714;
+    width: 100%;
+}
+
+.footer-img {
+    width: 5%;
+    margin: auto;
+}
+
+.footer-icerik1 {
+    width: 74%;
+    margin: auto;
+}
+
+.footer-icerik1 a {
+    color: #c0c0c0;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 12px;
+}
+
+/* .footer-icerik2 {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-icerik2 a {
+    color: #c0c0c0;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0px 8px;
+} */
+
+.footer-container p{
+    margin-top: 20px;
+}
+.listeler {
+    display: flex;
+}
+
+.linux {
+    text-align: center; font-size: 13px; padding: 20px;
+}

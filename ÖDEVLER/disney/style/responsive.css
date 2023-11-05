@@ -1,0 +1,341 @@
+@media screen and (max-width:500px) {
+    nav {
+        opacity: 1;
+    }
+    body
+    nav img{
+        width: 70%;
+    }
+    #uyeol, #oturum {
+        width: 27%;
+        font-size: 12px;
+    }
+    nav {
+        z-index: 2;
+    }
+
+    .ust {
+        position: relative;
+        background-image: url("https://cnbl-cdn.bamgrid.com/assets/f2c4870c2d8dceeeaed7570278ab5e06e9c2568317d7a3b156132648011b189c/original");
+        background-color: #040714; 
+        margin-top: 60px;
+
+    }
+    div.ustyazi {
+        max-height: 10px;
+    }
+    .ustyaziic {
+        position: absolute;
+        top: 20vh;
+        right: 5vh;
+        left: 5vh;
+    }
+
+    .ustp {
+        position: absolute;
+        top: 0vh;
+        font-size: 25px;
+        
+    }
+    
+    .iptalet {
+        position: absolute;
+        top: 20vh;
+        left: 15vh;
+    }
+
+    .aclassı a {
+        position: absolute;
+        top: 30vh;
+        width: 90%;
+        left: 2vh;
+    }
+
+    .yillik {
+        position: absolute;
+        top: 35vh;
+        font-size: 14.5px;
+    }
+    .fatura {
+        position: absolute;
+        top: 45vh;
+        
+    }
+
+    .ustyaziic i {
+        position: absolute;
+        top: 55vh;
+    }
+    
+    .yazilar {
+        top: 0;
+    }
+
+    .sadecedisney {
+        position: absolute;
+        top: 640px;
+        width: 100%;
+    }
+    .resim {margin-top: 150px;
+        display: flex;
+    }
+   .resim1 {
+    display: none;
+   }
+   .resim2 {
+    display: inline;
+}
+    .yazilar {
+        text-align: center;
+        left: 0;
+        padding: 0 30px 0;
+
+    }
+
+    .yazilar1 {
+        font-size: 20px;
+
+    }
+    .yazilar2 {
+        left: 10px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .diledigingibi {
+        position: absolute;
+        top: 1140px;
+    }
+    .gibiizle {
+        font-size: 23px;
+    }
+    .dunya {
+        font-size: 16px;
+        padding: 0 20px 0;
+    }
+    
+    .diledigingibiic {
+        width: 100%;
+        
+    }
+
+    .diledigingibialt {
+        width: 100%;
+    }
+    
+    .kucukekranlar {
+        display: flex;
+        flex-direction: column;
+    }
+    .alt1 {
+        margin-top: 50px;
+    }
+    .altbir {
+        font-size: 18px;
+
+        margin: 20px;
+
+    }
+    .altbirr {
+        font-size: 15px;
+        margin: 20px 20px 40px;
+
+    }
+    
+     .altbir {
+        font-size: 18px;
+
+        margin: 20px;
+
+    }
+    .altbirr {
+        font-size: 15px;
+        margin: 20px 20px 40px;
+
+    }
+    
+
+
+
+
+    .altiki {
+        font-size: 18px;
+
+        margin: 20px;
+
+    }
+    .altikii {
+        font-size: 15px;
+        margin: 20px 20px 40px;
+
+    }
+
+    
+
+
+    .altuc {
+        font-size: 18px;
+        margin: 20px;
+
+    }
+    .altucc {
+        font-size: 15px;
+        margin: 20px 20px 40px;
+        padding: 0 10px 0;
+    }
+
+
+    .sorular {
+        position: absolute;
+        top: 2250px;
+        width: 100%;
+    }
+
+    .sorular_container h2 {
+        font-size: 20px;
+    }
+    
+
+
+    .cihaz {
+        position: absolute;
+        top: 3000px;
+        width: 100%;
+    }
+
+
+    .cihaz-container h2{
+        font-size: 20px;
+    }
+
+    .listeler {
+        flex-direction: column;
+    }
+    .linux {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 15px;
+        padding-bottom: 40px;
+    }
+    footer {
+        position: absolute;
+        top: 3898px;
+        padding-top: 80px;
+    }
+
+    .footer-img {
+        width: 15%;
+    }
+   
+    .footer-icerik1 {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .yardim {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .yardim0 {
+        position: absolute;
+        left: -90px;
+        top: 240px;
+    }
+    
+
+}
+
+/* @media screen and (max-width: 800px) {
+    #uyeol{
+        display: none;
+    }
+    #oturum {
+        margin-left: auto;
+    }
+
+    .ust {
+        background-image: url("https://cnbl-cdn.bamgrid.com/assets/cde3482cf3842b2b1d45e940786987786daedc1ca09ece042330bbceac743270/original");
+        background-color: #040714;
+    }
+
+
+    .ustyaziic {
+        position: absolute;
+        top: 220px;
+        left: 150px;
+        width: 500px;
+    }
+
+        
+    .sadecedisney {
+        position: absolute;
+        top: 650px;
+    }
+
+    .yazilar {
+        width: 350px;
+        top: 10px;
+        left: 50px;
+    }
+
+    .yazilar1 {
+        font-weight: 600;
+        width: 200px;
+        font-size: 30px;
+    }
+
+    .diledigingibi {
+        position: absolute;
+        top: 1030px;
+    }
+    
+    .sorular {
+        position: absolute;
+        top: 1813px;
+        width: 100%;
+    }
+
+    .cihaz {
+        position: absolute;
+        top: 2560px;
+    }
+
+    .linux {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 17px;
+    }
+
+    footer {
+        position: absolute;
+        top: 3230px;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+    .footer-img {
+        width: 10%;
+    }
+    .footer-container p{
+        margin-top: 40px;
+    }
+    .asagisi {
+        display: flex;
+    }
+    .yardim {
+        position: absolute;
+        top: 100px;
+    }
+    .yardim0 {
+        left: -190px;
+    }
+    .yardim1 {
+        left: 350px;
+    }
+    .yardim2 {
+        left: 500px;
+    }
+}  */
