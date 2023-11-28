@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        body {
+            background-color: #141414;
+        }
+
+        .container {
+            height: 100vh;
+            align-items: center;
+            width: 50%;
+            margin: auto;
+        }
+
+
+        .watch {
+            margin: auto;
+            align-items: center;
+            color: white;
+        }
+
+        .watch h2 {
+            margin-top: 10rem;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .profile {
+            display: flex;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .profile>div {
+            text-align: center;
+            color: gray;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .profile>div>img:hover {
+            border-radius: 5px;
+            border: 1px solid white;
+        }
+
+        .button {
+            display: flex;
+        }
+
+        .button>button {
+            margin: auto;
+            margin-top: 4rem;
+            border: 1px solid gray;
+            background-color: #141414;
+            color: gray;
+            padding: 12px 40px;
+            cursor: pointer;
+        }
+
+        .button>button:hover {
+            border: 1px solid white;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="watch">
+            <h2> Who's Watching?</h2>
+        </div>
+        <div class="profile">
+            <div>
+                <img src="./public/profile1.png" alt="profil">
+                <p>Anıl</p>
+            </div>
+            <div>
+                <img src="./public/profile2.png" alt="profil">
+                <p>Atakan</p>
+            </div>
+            <div>
+                <img src="./public/profilekids.png" alt="profil">
+                <p>Ece</p>
+            </div>
+            <div>
+                <img src="./public/profileadd.png" alt="profil">
+                <p>add</p>
+            </div>
+        </div>
+        <div class="button">
+            <button>MANAGE PROFİLES</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

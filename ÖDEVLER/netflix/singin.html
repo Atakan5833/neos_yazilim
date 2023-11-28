@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing in</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/04253b8c-a366-4158-b704-8ac470f636a5/TR-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .container {
+            background-color: rgba(0,0,0,0.8);
+            max-width: 380px;
+            margin: auto;
+            margin-top: 20vh;
+            padding: 4rem;
+            height: 80vh;
+        }
+        
+        .sing>h2 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+        input {
+            padding: 12px 15px;
+            background-color: gray;
+            margin-bottom: 0.8rem;
+            width: 100%;
+            border-radius: 5px;
+            border: 0;
+
+        }
+        input::placeholder {
+            color: white;
+        }
+        button {
+            cursor: pointer;
+            background-color: red;
+            color: white;
+            padding: 12px;
+            border: 0;
+            border-radius: 5px;
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        .remember {
+            display: flex;
+            justify-content: space-between;
+            color: gray;
+        }
+        .footer {
+            color: gray;
+            margin-top: 4rem;
+
+        }
+        .footer >p> a {
+            color: white;
+            text-decoration: none;
+        }
+        .alt {
+            margin-top: 1rem;
+            color: gray;
+            font-size: 12px;
+        }
+        .alt>p>a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sing">
+        <h2>Sing In</h2>
+    </div>
+    <div class="form">
+        <form>
+            <input type="text" placeholder="Email or phone number">
+            <input type="text" placeholder="Password">
+        </form>
+    </div>
+        <button>Sing In</button>
+        <div class="remember">
+            <p>Remember me</p>
+            <p>Need help?</p>
+        </div>
+
+        <div class="footer">
+            <p>New to Netflix? <a href="#">Sing up now</a>.</p>
+        </div>
+        <div class="alt">
+            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a> </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img {
+            max-width: 100%;
+            cursor: pointer;
+        }
+        body {
+            background-color: #0a0a0a;
+
+        }
+        .container {
+            width: 1300px;
+            margin: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        .navbar {
+            min-height: 70px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar > ul {
+            display: flex;
+            list-style: none;
+            margin-left: 2rem;
+            gap: 0.7rem;
+        }
+        .navbar > ul >li>a  {
+            text-decoration: none;
+            color: gray;
+            font-size: 14px;
+        }
+        .navsag {
+            min-height: 70px;
+            display: flex;
+            color: gray;
+            align-items: center;
+        }
+        .birinci {
+            color: white;
+            font-size: 1.5rem;
+        }
+        .ikinci {
+            color: white;
+            font-size: 1.5rem;
+        }
+        .ikinci>div {
+            display: flex;
+            gap: 0.5rem;
+        }
+        .ucuncu {
+            color: white;
+            font-size: 1.5rem;
+        }
+        .ucuncu>div {
+            display: flex;
+            gap: 0.5rem;
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <div class="navbar">
+            <img src="./public/logobrowse.png" alt="">
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Diziler</a></li>
+                <li><a href="#">Filmler</a></li>
+                <li><a href="#">Yeni ve Popüler</a></li>
+                <li><a href="#">Listem</a></li>
+                <li><a href="#">Dile Göre Göz At</a></li>
+            </ul>
+        </div>
+
+        <div class="navsag">
+            <p>Çocuk</p>    
+        </div>
+    </nav>
+
+
+    <div class="birinci">
+        <p>Atakan, İzlemeye Devam Et</p>
+        <div>
+            <img src="./public/film/bodies.png" alt="bodies">
+            <img src="./public/film/maniac.png" alt="maniac">
+        </div>
+    </div>
+    <div class="ikinci">
+        <p>Gündemdekiler</p>
+        <div>
+        <img src="./public/film/istanbul.png" alt="sonçağrı">
+        <img src="./public/film/terzi.png" alt="terzi">
+        <img src="./public/film/gormedigi.png" alt="gormediğimiz">
+        <img src="./public/film/crown.png" alt="crown">
+        <img src="./public/film/lupin.png" alt="lupin">
+        <img src="./public/film/manifest.png" alt="manifest">
+    </div>
+    </div>
+    <div class="ucuncu">
+        <p>Ödüllü Yönetmenler</p>
+        <div>
+        <img src="./public/film/piyanist.png" alt="piyanist">
+        <img src="./public/film/kulub.png" alt="dövüş">
+        <img src="./public/film/truman.png" alt="truman">
+        <img src="./public/film/akil.png" alt="akıl">
+        <img src="./public/film/yarali.png" alt="yaralıyüz">
+        <img src="./public/film/blade.png" alt="blade">
+    </div>
+    </div>
+
+
+
+
+</div>
+</body>
+</html>
